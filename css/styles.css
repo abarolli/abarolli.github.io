@@ -1,0 +1,68 @@
+:root {
+    --color-primary: #00AEEF;
+    --color-button: #070471;
+    --color-body: #707070;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-body);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+
+/* Buttons */
+.btn {
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    transition: all 0.15s;
+}
+
+.btn--primary {
+    background: var(--color-primary);
+    border: 0;
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background: #31C7FF;
+}
+
+.btn--outline {
+    color: var(--color-button);
+    border: 2px solid var(--color-button);
+    background: #fff;
+}
+
+.btn--outline:hover {
+    background: var(--color-button);
+    color: #fff;
+}
+
+.btn--block {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
