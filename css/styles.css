@@ -24,6 +24,10 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
+p {
+    margin: 0;
+}
+
 
 /* Buttons */
 .btn {
@@ -79,5 +83,42 @@ a {
 @media screen and (min-width: 768px) {
     .grid--1x2 {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Actions */
+
+.action__icon {
+    width: 100%;
+}
+
+.action__header {
+    padding: 0 12rem;
+}
+
+.action__content {
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+
+.grid .action__content {
+    justify-self: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 .action__content {
+        align-self: center;
+    }
+
+    .action__header {
+        padding: 0 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .action__header {
+        padding: 0 12rem;
     }
 }
