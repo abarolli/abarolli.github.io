@@ -90,11 +90,11 @@ a {
 /* Actions */
 
 .action__icon {
-    width: 100%;
+    width: 90%;
 }
 
 .action__header {
-    padding: 0 12rem;
+    text-align: center;
 }
 
 .action__content {
@@ -110,16 +110,7 @@ a {
 @media screen and (min-width: 768px) {
     .grid--1x2 .action__content {
         align-self: center;
-    }
-
-    .action__header {
-        padding: 0 5rem;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .action__header {
-        padding: 0 12rem;
+        justify-self: center;
     }
 }
 
@@ -132,3 +123,6 @@ a {
 .container--center {
     margin: 0 auto;
 }
+
+
+/* Cards */
