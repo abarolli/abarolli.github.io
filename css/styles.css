@@ -175,3 +175,23 @@ a {
     margin-right: 1.5rem;
 }
 
+
+/* Icons */
+
+
+/* Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.logo-container__logo {
+    width: 12rem;
+    margin: 0 1rem;
+}
+
+.logo-container__heading {
+    font-weight: 500;
+    font-size: 2.4rem;
+}
