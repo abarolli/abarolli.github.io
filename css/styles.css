@@ -13,6 +13,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--color-body);
+    font-size: 1.5rem;
 }
 
 html {
@@ -34,7 +35,6 @@ p {
     border-radius: 30px;
     cursor: pointer;
     display: inline-block;
-    font-size: 1.5rem;
     font-weight: 500;
     padding: 1rem 2rem;
     transition: all 0.15s;
@@ -129,16 +129,11 @@ a {
     text-align: center;
 }
 
-.card__pre-title {
-    font-size: 1.5rem;
-}
-
 .card__title {
     font-size: 2.4rem;
 }
 
 .card__content {
-    font-size: 1.5rem;
     margin-top: 3rem;
     font-weight: 500;
 }
@@ -171,16 +166,12 @@ a {
 
 /* Lists */
 .list {
-    list-style: none;
     padding: 0;
-    font-size: 2rem;
-}
-
-.list__item {
-    margin-bottom: 1rem;
+    list-style: none;
 }
 
 .list--inline .list__item {
     display: inline-block;
-    margin: 0 1rem 0 0;
+    margin-right: 1.5rem;
 }
+
