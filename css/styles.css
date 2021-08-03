@@ -180,12 +180,11 @@ a {
 .logo-container {
     display: flex;
     align-items: center;
-    margin-top: 0.5rem;
 }
 
 .logo-container__logo {
     width: 12rem;
-    margin: 0 1rem;
+    margin: 0 1rem 0 0;
 }
 
 .logo-container__heading {
@@ -205,4 +204,21 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 1.5rem;
+    background: #fff;
+    border-bottom: 1px solid var(--color-body);
+}
+
+.nav__list {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav .icon {
+        display: none;
+    }
+
+    .nav__list {
+        display: initial;
+    }
 }
