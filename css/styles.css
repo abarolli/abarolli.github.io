@@ -95,6 +95,22 @@ a {
     text-decoration: none;
 }
 
+a:link {
+    color: var(--color-body)
+}
+
+a:visited {
+    color: var(--color-body);
+}
+
+a:hover {
+    color: var(--color-body);
+}
+
+a:active {
+    color: var(--color-body);
+}
+
 
 /* Grids */
 .grid {
