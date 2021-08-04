@@ -14,67 +14,22 @@
         
     </style>
 </head>
-<body>
-    <nav class="nav">
-        <div class="logo-container">
-            <svg class="logo-container__logo" viewBox="0 0 263 148">
-                <use xlink:href="icons/sprite.svg#bored_members_logo"></use>
-            </svg>
-            <h1 class="logo-container__heading">Bored Members</h1>
-        </div>
-        <svg class="icon toggler">
-            <use xlink:href="icons/sprite.svg#menu"></use>
-        </svg>
-        <ul class="list list--inline nav__list">
-            <li class="list__item">Item 1</li>
-            <li class="list__item">Item 2</li>
-            <li class="list__item">Item 3</li>
-        </ul>
-    </nav>
-    <section class="side-menu side-menu--right collapsible-side-menu">
-        <header class="side-menu__header">
-            <div class="logo-container">
-                <svg class="logo-container__logo" viewBox="0 0 263 148">
-                    <use xlink:href="icons/sprite.svg#bored_members_logo"></use>
-                </svg>
-                <h1 class="logo-container__heading">Bored Members</h1>
+<body class="prevent-animation">
+    <section class="hero grid grid--1x2 container container--center">
+        <div class="card hero__content">
+            <header class="card__header">
+                <h1 class="card__title-container">
+                    <div class="card__pre-title">Chat Rooms</div>
+                    <div class="card__title">For Business Leaders</div>
+                </h1>
+            </header>
+            <div class="card__content">
+                <p>Being an entrepreneur doesn't have to be lonely.</p>
             </div>
-            <svg class="icon toggler">
-                <use xlink:href="icons/sprite.svg#menu"></use>
-            </svg>
-        </header>
-        <ul class="list side-menu__list">
-            <li class="list__item collapsible">
-                <header class="collapsible__header">
-                    <h3 class="collapsible__heading">Item 1</h3>
-                    <svg class="icon chevron">
-                        <use xlink:href="icons/sprite.svg#chevron"></use>
-                    </svg>
-                </header>
-                <article class="collapsible__content">
-                    <ul class="list">
-                        <li class="list__item">Item 1</li>
-                        <li class="list__item">Item 2</li>
-                        <li class="list__item">Item 3</li>
-                    </ul>
-                </article>
-            </li>
-            <li class="list__item collapsible">
-                <header class="collapsible__header">
-                    <h3 class="collapsible__heading">Item 1</h3>
-                    <svg class="icon chevron">
-                        <use xlink:href="icons/sprite.svg#chevron"></use>
-                    </svg>
-                </header>
-                <article class="collapsible__content">
-                    <ul class="list">
-                        <li class="list__item">Item 1</li>
-                        <li class="list__item">Item 2</li>
-                        <li class="list__item">Item 3</li>
-                    </ul>
-                </article>
-            </li>
-        </ul>
+        </div>
+        <div class="hero__img">
+            <img src="icons/bored_members_network.svg" alt="">
+        </div>
     </section>
 
     <script src="scripts/main.js"></script>
