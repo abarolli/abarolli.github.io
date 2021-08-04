@@ -132,16 +132,32 @@
         </section>
         <section class="block-actions">
             <div class="action grid grid--1x2 container container--center">
-                <header class="action__header">
-                    <img class="action__icon" src="icons/bored_members_logo.svg" alt="">
+                <header class="action__header join-others">
+                    <svg id="mr_purple1" class="action__icon action__icon--small employee" viewBox="0 0 321 362">
+                        <use xlink:href="icons/sprite.svg#mr_purple"></use>
+                    </svg>
+                    <svg id="boss1" class="action__icon action__icon--small employee" viewBox="0 0 70 85">
+                        <use xlink:href="icons/sprite.svg#boss"></use>
+                    </svg>
+                    <svg id="mr_pink1" class="action__icon action__icon--small employee slide-left--30" viewBox="0 0 81 85">
+                        <use xlink:href="icons/sprite.svg#mr_pink"></use>
+                    </svg>
                 </header>
                 <div class="action__content">
                     <p>Participate in existing Bored Rooms</p>
                 </div>
             </div>
             <div class="action grid grid--1x2 grid--flip container container--center">
-                <header class="grid__item-1 action__header">
-                    <img class="action__icon" src="icons/bored_members_logo.svg" alt="">
+                <header class="grid__item-1 action__header invite-to-you">
+                    <svg id="mr_purple2" class="action__icon action__icon--small employee" viewBox="0 0 321 362">
+                        <use xlink:href="icons/sprite.svg#mr_purple"></use>
+                    </svg>
+                    <svg id="boss2" class="action__icon action__icon--small employee" viewBox="0 0 70 85">
+                        <use xlink:href="icons/sprite.svg#boss"></use>
+                    </svg>
+                    <svg id="mr_pink2" class="action__icon action__icon--small employee" viewBox="0 0 81 85">
+                        <use xlink:href="icons/sprite.svg#mr_pink"></use>
+                    </svg>
                 </header>
                 <div class="grid__item-2 action__content">
                     <p>Or invite others to yours!</p>
@@ -154,6 +170,7 @@
     </main>
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/animateActions.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
