@@ -17,6 +17,8 @@ const sideMenu = document.querySelector(".side-menu");
 sideMenuTogglers.forEach(toggler => {
     toggler.addEventListener("click", e => {
         sideMenu.classList.toggle("collapsible-side-menu--expanded");
-        docBody.classList.toggle("inactive");
+        setTimeout(() => {
+            docBody.classList.toggle("inactive");
+        }, 200);
     });
 });
